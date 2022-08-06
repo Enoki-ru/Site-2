@@ -8,9 +8,14 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="./img/logo 32x32.jpg" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <div class="top-title">
         <div class="title-box">
             <h1 id="#start">ТУЧ</h1>
@@ -31,6 +36,7 @@
         <ion-icon name="chevron-forward-circle" class="holder" id="icon" ></ion-icon>
     </div>
         <div class="left-menu" id="left-menu">
+            <h3 style="cursor:context-menu ;" id="left-Link">Ссылки</h3>
             <a href="https://vk.com/tuuch" target="_blank" rel="noopener noreferrer" >
                 <ion-icon name="logo-vk"></ion-icon>
             </a>
@@ -50,7 +56,7 @@
 
     <div class="chapter">
         <ion-icon name="hand-left" ></ion-icon>
-        <h2>Давайте представимся</h2>
+        <h2>Давайте познакомимся</h2>
     </div>
     <p>
         Всем привет, меня зовут Сережа, мне сколько-то там лет (добавлю потом автоматический подсчет). <br> Для статистики: <br>
@@ -72,14 +78,57 @@
     </p>
     <div class="chapter">
         <ion-icon name="rocket"></ion-icon>
-        <h2>Секреты FrontEnd</h2>
+        <h2>Вещи, которые мне предстоит сделать!</h2>
     </div>
     <ol>
-        <li>Использовать готовые иконки, ибо самому делать лень: 
+        <li>Перестать использовать чужие svg иконки, а научиться делать рисовать их самому. Сейчас пользуюсь такими иконками: 
             <a href="https://ionic.io/ionicons" target="_blank" rel="noopener noreferrer">Ionicons</a> (как в этой работе);</li>
-        <li>Ну а дальше пока не знаю, фреймфорки рано, так что забей</li>
+        <li>Научиться пользоваться  <a href="https://www.figma.com" target="_blank" rel="noopener noreferrer">фигмой;</a></li>
+        <li>JS, говорят, наше всё!</li>
+        <li>Изучить какие-то там фреймфорки и библиотеки:</li>
     </ol>
-    <!-- <button>Кнопка</button> -->
+    <ul>
+        <li><a href="https://swiperjs.com/get-started" target="_blank" rel="noopener noreferrer">Swiper.js</a></li>
+    </ul>
+    <p>Ну а так вот вообще мой путь к познанию мира: <a href="/img/frontend.pdf" target="_blank" rel="noopener noreferrer">ТЫК</a></p>
+    <div class="chapter">
+        <ion-icon name="ribbon"></ion-icon>
+        <h2>Обязательный набор приложений</h2>
+    </div>
+    <ul>
+        <li>Visual Studio Code - для написания кода, соответственно</li>
+        <li>Adobe After Effects - для создания растрированных анимаций</li>
+        <li>Adove Premiere Pro - для обработки и создания видеоряда</li>
+        <li>Adobe Photoshop - для создания и обработки картинок</li>
+        <li>Adobe InDesign - для создания макетов журналов, статей, инструкций</li>
+        <li>SAI 2 - для мемного рисования (в котором я ноль)</li>
+        <li>Blender 3d - для создания super mega 3д моделей, миров, и тд</li>
+        <li>VoiceMeeter Banana - для профессиональной обработки голоса в прямом эфире</li>
+        <li>OBS - непосредсвенно яма (Прямой эфир)</li>
+    </ul>
+    <div class="chapter">
+        <ion-icon name="images"></ion-icon>
+        <h2>Мои работы</h2>
+    </div>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="/img/project1.png" alt="" style="max-width: 100%;"></div>
+          <div class="swiper-slide"><img src="/img/project2.png" alt="" style="max-width: 100%;"></div>
+          <div class="swiper-slide" style="text-align: center;"><img src="/img/Best.jpg" alt="" style="max-height: 100%;"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

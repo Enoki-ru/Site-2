@@ -5,7 +5,7 @@
   --left: #3973f0;
   --white: #fff;
   --ico-color: rgb(101, 199, 255);
-  --size:40px ;
+  --size:3vw ;
   --size-holder: 40px;
   --greyLight-2: #d5e0f3;
 }
@@ -44,6 +44,14 @@ h3{
   color: #fff;
   text-align: left;
   margin: 15px 9% 15px 9%;
+  transition: 1s;
+}
+.left-menu h3{
+  font-size: 1.3vw;
+}
+.left-link{
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 10px rgb(70, 70, 70);
 }
 p{
   color:#fff ;
@@ -56,6 +64,10 @@ li{
 a{
   color:#fff ;
   margin: 0;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
 }
 .top-title{
   display: flex;
@@ -114,6 +126,7 @@ a{
   top: 0;
   bottom: 0;
   margin: 0;
+  padding-top: 10vh;
   border-bottom-right-radius: 12px;
   transform: translateX(-110%);
   transition: transform .4s ease-in-out;
@@ -125,6 +138,9 @@ a{
 }
 .left-menu.open{
   transform: none;
+}
+.left-menu a{
+  margin: 1vw;
 }
 ion-icon{
   font-size: var(--size);
@@ -150,6 +166,7 @@ ion-icon:hover{
   color: var(--ico-color);
 }
 .sticky-icon{
+  z-index: 2;
   position: sticky;
   width: var(--size-holder);
   height: var(--size-holder);
@@ -163,50 +180,3 @@ ion-icon:hover{
 .sticky-icon.open{
   transform: translateX(7vw) rotateZ(180deg);
 }
-/* 
-button{
-  position: relative;
-  overflow: hidden;
-  border: none;
-  cursor: pointer;
-  color: white;
-  padding: 15px 40px;
-  border-radius: 2px;
-  font-size: 22px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
-  background: #167dad;
-}
-
-button:after {
-  content: '';
-  position: absolute;
-  top: 70%;
-  
-  left: 80%;
-  width: 5px;
-  height: 5px;
-  background: rgba(255, 255, 255, .5);
-  opacity: 0;
-  border-radius: 100%;
-  transform: scale(1, 1) translate(-50%);
-  transform-origin: 50% 50%;
-}
-
-@keyframes ripple {
-  0% {
-    transform: scale(0, 0);
-    opacity: 1;
-  }
-  20% {
-    transform: scale(25, 25);
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: scale(40, 40);
-  }
-}
-
-button:focus:not(:active)::after {
-  animation: ripple 1s ease-out;
-} */
