@@ -5,7 +5,7 @@
   --left: #3973f0;
   --white: #fff;
   --ico-color: rgb(101, 199, 255);
-  --size:3vw ;
+  --size:40px ;
   --size-holder: 40px;
   --greyLight-2: #d5e0f3;
 }
@@ -118,6 +118,7 @@ a{
 }
 .left-menu{
   width: 7vw;
+
   height: 100vh;
   background: var(--left);
   position: fixed;
@@ -166,7 +167,7 @@ ion-icon:hover{
   color: var(--ico-color);
 }
 .sticky-icon{
-  z-index: 2;
+  z-index: 4;
   position: sticky;
   width: var(--size-holder);
   height: var(--size-holder);
