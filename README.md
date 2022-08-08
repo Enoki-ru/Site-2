@@ -1,6 +1,5 @@
 # Site-2
 https://enoki-ru.github.io/Site-2/
-Используемый стек, аритектура папок кто что написал. + скриншоты
 # CSS
 Through CSS, I have connected several fonts from the Rubik family. Also, at the root, I have prescribed the main variables, changing which you can achieve different results. In a previous job, I was asked to work on +- normal viewing through the phone, well, I think you can read now!
 [2022-08-08_21-02-08](https://user-images.githubusercontent.com/110339199/183483618-3841ea3e-e235-4a10-bb15-b81f33189a54.png)
