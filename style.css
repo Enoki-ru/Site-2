@@ -18,16 +18,12 @@ body{
 }
 html{
     height: 100%;
-
 }
 h1{
-
     color: #fff;
     text-align: center;
     margin: 0;
-    
 }
-
 h2{
   color: #fff;
   text-align: left;
@@ -54,15 +50,15 @@ h3{
   text-shadow: 3px 3px 10px rgb(70, 70, 70);
 }
 p{
-  color:#fff ;
+  color:var(--white) ;
   margin: 0 9% ;
 }
 li{
-  color:#fff ;
+  color:var(--white) ;
   margin: 0 9% ;
 }
 a{
-  color:#fff ;
+  color:var(--white) ;
   margin: 0;
 }
 .swiper {
